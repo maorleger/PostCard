@@ -44,6 +44,7 @@ class ViewController: UIViewController {
             enterMessageTextField.text = ""
             messageLabel.hidden = false
             // remove the keyboard somehow... need to look into that a bit
+            // added comment
             enterMessageTextField.resignFirstResponder()
             messageLabel.textColor = UIColor.redColor() // set the color to red
             mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
